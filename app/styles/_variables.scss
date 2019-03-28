@@ -1,0 +1,93 @@
+/* PALETTE */
+/* ----------------------------------- */
+// BASE
+
+$palette-imbdur: #F8F8F8;
+$palette-peterman: #EBEBEB;
+$palette-gris: #454444;
+$palette-red: #cd3236;
+
+$blue:    $palette-imbdur;
+$fg-color: #000;
+$fg-color-primary: rgba($fg-color, 0.87);
+$fg-color-secondary: rgba($fg-color, 0.54);
+$fg-color-disabled: rgba($fg-color, 0.38);
+$fg-color-divider: rgba($fg-color, 0.12);
+
+$reverse-fg-color: #fff;
+$reverse-fg-color-primary: rgba($reverse-fg-color, 0.87);
+$reverse-fg-color-secondary: rgba($reverse-fg-color, 0.54);
+$reverse-fg-color-disabled: rgba($reverse-fg-color, 0.38);
+$reverse-fg-color-divider: rgba($reverse-fg-color, 0.12);
+
+
+//== Scaffolding
+//
+//## Settings for some of the most global styles.
+
+//** Background color for `<body>`.
+$body-bg:           	#fff;
+$header-bg:             #000;
+//** Global text color on `<body>`.
+$text-color:        	$palette-gris;
+
+//** Global textual link color.
+$link-color:        	$fg-color-primary;
+//** Link hover color set via `darken()` function.
+$link-hover-color:  	$link-color;
+//** Link hover decoration.
+$link-hover-decoration: none;
+
+
+//== Typography
+//
+//## Font, line-height, and color for body text, headings, and more.
+
+$font-family:  'Muli', sans-serif !default;
+$font-family-sans-serif: $font-family;
+
+$font-family-base:    	$font-family !default;
+
+$font-size-base:      	1rem !default;
+$font-size-large:     	ceil(($font-size-base * 1.25)) !default; // ~18px
+$font-size-small:     	ceil(($font-size-base * 0.85)) !default; // ~12px
+
+$font-size-h1:        	3.375rem !default;
+$font-size-h2:        	2rem !default;
+$font-size-h3:        	1.75rem !default;
+$font-size-p:         	1rem !default;
+$font-size-topmenu:   	1rem !default;
+
+$font-size-h1-more:        	5.625rem !default;
+$font-size-h2-more:        	3rem !default;
+$font-size-h3-more:        	2.25rem !default;
+$font-size-p-more:         	1.313rem !default;
+
+$font-size-h1-less:        	2.813rem !default;
+$font-size-h2-less:        	1.375rem !default;
+$font-size-h3-less:        	1.375rem !default;
+$font-size-p-less:         	1rem !default;
+
+//** Unit-less `line-height` for use in components like buttons.
+$line-height-base:    	1.428571429 !default; // 20/14
+//** Computed "line-height" (`font-size` * `line-height`) for use with `margin`, `padding`, etc.
+$line-height-computed:	floor(($font-size-base * $line-height-base)) !default; // ~20px
+
+//** By default, this inherits from the `<body>`.
+$headings-font-family:	inherit !default;
+$headings-font-weight:	300 !default;
+$headings-line-height:	1.1 !default;
+$headings-color:      	inherit !default;
+
+//Pushy menu
+$menu_width: 240px;
+
+$marginMobile: 15px;
+
+$border-radius:               0;
+$border-radius-lg:            0;
+$border-radius-sm:            0;
+
+$h1-font-size:                $font-size-h1;
+$h2-font-size:                $font-size-h2;
+$h3-font-size:                $font-size-h3;

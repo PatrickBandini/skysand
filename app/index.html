@@ -20,49 +20,207 @@
     <link href="https://fonts.googleapis.com/css?family=Muli:400,600,700" rel="stylesheet">
   </head>
   <body>
-    <!--[if IE]>
-      <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-    <![endif]-->
-    <div class="container">
-      <div class="header">
-        <ul class="nav nav-pills float-right">
-          <li class="nav-item">
-            <a href="#" class="nav-link active">Home</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">About</a>
-          </li>
-          <li>
-            <a href="#" class="nav-link">Contact</a>
-          </li>
-        </ul>
-        <h3 class="text-muted">test</h3>
-      </div>
 
-      <div class="jumbotron">
-        <h1 class="display-3">'Allo, 'Allo!</h1>
-        <p class="lead">Always a pleasure scaffolding your apps.</p>
-        <p><a class="btn btn-lg btn-success" href="#">Splendid!</a></p>
-      </div>
+      <!-- Pushy Menu -->
+      <nav class="pushy pushy-left">
+          <div class="pushy-content">
+              <ul>
+                  <li class="pushy-link"><a href="#chi-siamo">#SKYSANDVOLLEY</a></li>
+                  <li class="pushy-submenu">
+                      <button>Tornei</button>
+                      <ul>
+                          <li class="pushy-link"><a href="#">Skysand</a></li>
+                          <li class="pushy-link"><a href="#">U19</a></li>
+                          <li class="pushy-link"><a href="#">U15</a></li>
+                      </ul>
+                  </li>
+                  <li class="pushy-link"><a href="#location">LOCATION</a></li>
+              </ul>
+          </div>
+      </nav>
 
-      <div class="row marketing">
-        <div class="col-lg-6">
-          <h4>HTML5 Boilerplate</h4>
-          <p>HTML5 Boilerplate is a professional front-end template for building fast, robust, and adaptable web apps or sites.</p>
+      <!-- Site Overlay -->
+      <div class="site-overlay"></div>
 
-          <h4>Sass</h4>
-          <p>Sass is the most mature, stable, and powerful professional grade CSS extension language in the world.</p>
+    <!-- Your Content -->
+    <div id="container">
+        <header>
 
-          <h4>Bootstrap</h4>
-          <p>Sleek, intuitive, and powerful mobile first front-end framework for faster and easier web development.</p>
+            <div class="container">
+                <!-- Menu Button -->
+                <div class="row">
+                  <div class="col-md-4 col-sm-12">
+                      <div class="logo">
+                          <img src="images/logo.png" alt="Skysandvolley" class="img-fluid">
+                      </div>
+                  </div>
+                  <div id="menu-full-page" class="col-md-8 d-flex align-items-end justify-content-end">
+                      <nav class="navbar navbar-expand-lg">
+                          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                              <ul class="navbar-nav mr-auto">
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#chi-siamo">#SKYSANDVOLLEY</a>
+                                  </li>
+                                  <li class="dropdown">
+                                      <a href="#" class="dropdown-toggle" data-toggle="dropdown">Tornei <b class="caret"></b></a>
+                                      <ul class="dropdown-menu">
+                                          <li><a href="#">Skysand</a></li>
+                                          <li><a href="#">U19</a></li>
+                                          <li><a href="#">U15</a></li>
+                                      </ul>
+                                  </li>
+                                  <li class="nav-item">
+                                      <a class="nav-link" href="#location">LOCATION</a>
+                                  </li>
+                              </ul>
+                          </div>
+                      </nav>
+                  </div>
+                </div>
 
+                <div class="row">
+                    <div class="col-12">
+                        <button class="menu-btn">&#9776; Menu</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <div class="w-100">
+            <div class="divider"></div>
         </div>
-      </div>
 
-      <div class="footer">
-        <p>♥ from the Yeoman team</p>
-      </div>
+        <section id="video-intro">
+            <div class="container-fluid">
+                <div class="row">
+                    <iframe src="https://www.youtube.com/embed/AWh9gESAOO0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section id="chi-siamo">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1>#SKYSANDVOLLEY</h1>
+                        <h2>MONTEPREMI per il valore di € 1000</h2>
+                        <p>Grandi novità per l'estate 2019. Il montepremi complessivo sarà del valore di € 1000.
+                            Da quest'anno il circuito estivo Marinamore Skysandvolley prevede 3 differenti categorie:</p>
+                        <ul>
+                            <li>Skysand - 3x3 M/F e 2x2 F </li>
+                            <li>U19 - 2x2 M/F (max classe 2000)</li>
+                            <li>U15 - 3x3 M (max classe 2004)
+                        </ul>
+
+                        <p>
+                            Il punteggio valido per la classifica finale, sarà considerato individuale, quindi sarà possibile cambiare squadra ad ogni tappa.
+                            Verranno premiati i primi 6 classificati di ogni categoria!!!
+                        </p>
+                        <p>Il punteggio si acquisisce attraverso la classifica di ogni tappa secondo questo schema:</p>
+                        <ul>
+                            <li>1° - 25 punti</li>
+                            <li>2° - 20 punti</li>
+                            <li>3° - 15 punti</li>
+                            <li>4° - 12 punti</li>
+                            <li>5° - 10 punti</li>
+                            <li>6° - 8 punti</li>
+                            <li>7° - 6 punti</li>
+                            <li>8° - 6 punti</li>
+                            <li>Altre posizioni: 2 punti</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tornei">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <a href="/skysand.html"><img src="images/torneo_principale.jpg" alt="skysand" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/u19.jpg" alt="u19" class="img-fluid"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <a href="#"><img src="images/u15.jpg" alt="u15" class="img-fluid"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery-home">
+            <div class="container-fluid">
+                <div class="row">
+
+                </div>
+            </div>
+        </section>
+
+        <section id="location">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="display-less">LOCATION</h1>
+                        <a href="https://goo.gl/maps/Zei82Fak4Ln" target="_blank">
+                            <img src="images/marinamore.png" alt="marinamore" class="img-fluid">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="w-100">
+            <div class="divider"></div>
+        </div>
+
+        <footer id="footer">
+            <div class="container contatti">
+                <h2 class="d-none">Contatti</h2>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-2 col-2">
+                                <img src="images/map.png">
+                            </div>
+                            <div class="col-md-10 col-10">
+                                <p>
+                                    <b>Indirizzo</b><br>
+                                    <a href="https://goo.gl/maps/Zei82Fak4Ln">Viale delle nazioni, 408<br>48122 Ravenna</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-2 col-2">
+                                <img src="images/telefono.png">
+                            </div>
+                            <div class="col-md-10 col-10">
+                                <p><b>Patrick - </b><a href="tel:3394359320">339 4359320</a></p>
+                                <p><b>Lorenzo - </b><a href="tel:3425972773">342 5972773</a></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-2 col-2">
+                                <img src="images/mail.png">
+                            </div>
+                            <div class="col-md-7 col-10">
+                                <p><b>Email</b><br>
+                                    <a href="mailto:info@skysandvolley.it">info@skysandvolley.it</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
+
+
     <!-- build:js scripts/vendor.js -->
     <script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
     <script type="text/javascript" src="/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
