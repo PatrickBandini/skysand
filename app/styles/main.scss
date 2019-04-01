@@ -3,7 +3,6 @@
 $fa-font-path:  "../fonts";
 
 //vendor:
-@import "node_modules/bootstrap/scss/bootstrap.scss";
 @import "node_modules/@cmyee/pushy/scss/pushy.scss";
 @import "node_modules/components-font-awesome/scss/fontawesome.scss";
 @import "node_modules/components-font-awesome/scss/fa-solid.scss";
@@ -18,13 +17,15 @@ html {
     width: 100%;
   }
   color: $text-color;
+
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: $body-bg;
+  }
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  background-color: $body-bg;
-}
+
 
 header, footer {
     .container {
@@ -81,6 +82,23 @@ header {
   background-color: #F8F8F8;
 }
 
+#tornei {
+    img {
+        margin-top: 60px;
+    }
+
+}
+
+#location {
+    h1 {
+        margin-top: 60px;
+    }
+
+    .container {
+        padding-bottom: 60px;
+    }
+}
+
 #container {
 
 
@@ -92,22 +110,24 @@ header {
     padding: 0;
     margin-top: $marginMobile;
     margin-bottom: $marginMobile;
+    color: white;
   }
 
   h1 {
     font-family: $font-family;
     font-weight: 700;
-    font-size: $font-size-h1;
+    font-size: 32px;
     &.display-less {
-      font-size: $font-size-h1-less;
+      font-size: 30px;
     }
     color: #999;
+    margin-top: 60px;
   }
 
   h2 {
     font-family: $font-family;
     font-weight: 400;
-    font-size: $font-size-h2;
+    font-size: 28px;
     color: $text-color;
   }
 
@@ -164,8 +184,19 @@ header {
   padding: 0;
 }
 
-.nav-item {
+.nav-item, .dropdown {
   margin-left: 30px;
+  a {
+      color: white;
+  }
+  ul li a {
+      color: $text-color;
+      padding-left: 15px;
+  }
+}
+
+.dropdown-menu {
+    top: 142%;
 }
 
 .sopra-slide {
@@ -347,9 +378,15 @@ header {
 }
 
 #footer {
-    background-color: $palette-peterman;
+    background-color: black;
     .container {
-      background-color: $palette-peterman;
+      background-color: black;
+      p {
+          color: white;
+      }
+    }
+    a {
+        color: white;
     }
     position: relative;
     .contatti {
@@ -458,6 +495,19 @@ header {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+    #container {
+        h1 {
+            font-size: $font-size-h1;
+            &.display-less {
+              font-size: $font-size-h1-less;
+            }
+        }
+        h2 {
+            font-size: $font-size-h2;
+        }
+    }
+
   html {
     font-size: 18px;
   }

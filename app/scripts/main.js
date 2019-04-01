@@ -41,6 +41,8 @@ $( document ).ready(function() {
     $('#main-slide-next').click(function(){
       slider.trigger('next.owl.carousel')
     })
+
+    var scroll = new SmoothScroll('a[href*="#"]');
 })
 
 
