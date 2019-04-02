@@ -390,17 +390,15 @@ header {
     }
     position: relative;
     .contatti {
-      min-height: 400px;
-      padding-top: 3.875rem;
+        padding-bottom: 3.875rem;
+        padding-top: 3.875rem;
       #social-mobile {
         font-size: 2.5rem;
         text-align: center;
         margin-top: 3.875rem;
         margin-bottom: 3.875rem;
       }
-      .row {
-        margin-bottom: 1rem;
-      }
+
       p {
         margin-bottom: 0.25rem;
       }
