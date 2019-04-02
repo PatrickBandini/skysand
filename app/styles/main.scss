@@ -25,7 +25,11 @@ html {
   }
 }
 
-
+.pushy-content {
+    ul {
+        list-style-type: none;
+    }
+}
 
 header, footer {
     .container {
