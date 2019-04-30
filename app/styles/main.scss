@@ -103,6 +103,12 @@ header {
     }
 }
 
+#poster {
+    img {
+        margin-bottom: 60px;
+    }
+}
+
 #container {
 
 
@@ -240,6 +246,9 @@ header {
 #chi-siamo {
   img {
     margin-top: 0.9375rem;
+  }
+  strong {
+      color: $red;
   }
 }
 
