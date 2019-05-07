@@ -250,6 +250,46 @@ header {
   strong {
       color: $red;
   }
+  h2 {
+      font-size: $font-size-h2;
+      text-transform: uppercase;
+      color: $palette-red;
+      margin-bottom: 0;
+  }
+  span {
+      font-size: $font-size-h2-less;
+      color: $text-color;
+      display: block;
+  }
+  h3 {
+      font-size: $font-size-h3-less;
+      color: $text-color;
+  }
+  label {
+      margin-bottom: 0;
+  }
+  .categorie {
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 50px;
+  }
+  .categorie1 {
+      margin-top: 50px;
+      text-align: center;
+      background-color: RGBA(205,50,54,0.25);
+      padding: 15px;
+  }
+  .categorie2 {
+      text-align: center;
+      background-color: RGBA(205,50,54,0.50);
+      padding: 10px;
+  }
+  .categorie3 {
+      text-align: center;
+      background-color: RGBA(205,50,54,0.75);
+      padding: 6px;
+      margin-bottom: 15px;
+  }
 }
 
 #descrizione {
@@ -506,6 +546,25 @@ header {
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
+
+    #chi-siamo {
+        h2 {
+            font-size: $font-size-h2;
+        }
+        span {
+            font-size: $font-size-h2-less;
+            display: inline;
+        }
+        h3 {
+            font-size: $font-size-h3-less;
+        }
+        .col-right {
+            padding-left: 30px;
+        }
+        .col-left {
+            padding-right: 30px;
+        }
+    }
 
     #container {
         h1 {
